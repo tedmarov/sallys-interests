@@ -1,0 +1,14 @@
+.bio__interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .interest {
+    flex-basis: 16%;
+    /* Make each child element the same width */
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+  }
